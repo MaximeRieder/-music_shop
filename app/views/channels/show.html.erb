@@ -1,0 +1,14 @@
+<div class="banner_channel" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= @channel.picture %>);">
+  <div class="add">
+    <i class="fas fa-plus"></i>
+  </div>
+</div>
+<div class="container_channel">
+  <%= link_to new_album_path, class: "obtn" do %>
+    Add Album
+  <% end %>
+  <div class="container_channel_album">
+    <div class="card-image" style="background-image: url('<%= @channel.albums %>')">
+    </div>
+  </div>
+</div>

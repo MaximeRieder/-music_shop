@@ -1,5 +1,5 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <%= link_to "#", class: "navbar-brand" do %>
+  <%= link_to "/", class: "navbar-brand" do %>
     <%= image_tag "https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" %>
     <% end %>
 
@@ -12,10 +12,12 @@
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
         <li class="nav-item">
-          <%= link_to "My Channel", "#", class: "nav-link" %>
+          <%= link_to "My Channel", channel_path(current_user), class: "nav-link" %>
         </li>
         <li class="nav-item">
           <%= link_to "Discover", "#", class: "nav-link" %>
+        </li>
+        <li class="nav-items"><%= link_to "Log out", destroy_user_session_path, method: :delete, class: "nav-link" %>
         </li>
       <% else %>
         <li class="nav-item">

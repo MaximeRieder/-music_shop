@@ -59,10 +59,11 @@
   <h2>Trending Channels:</h2>
   <div id="card_container2">
     <% @channels.each do |channel| %>
-      <div class="card-image" style="background-image: url('<%= channel.picture %>')">
-        <p><%= channel.name %></p>
-      </div>
-
+      <%= link_to channel_path(channel) do %>
+        <div class="card-image" style="background-image: url('<%= channel.picture %>')">
+          <p><%= channel.name %></p>
+        </div>
+      <% end %>
     <% end %>
   </div>
 </div>

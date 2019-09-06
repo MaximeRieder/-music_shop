@@ -29,3 +29,26 @@
 .banner a:hover {
   text-decoration: none;
 }
+
+.banner_channel {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.add i {
+  color: white;
+  font-size: 40px;
+  opacity: 0;
+
+}
+
+.banner_channel:hover {
+  i{
+    opacity: 1;
+    transition: ease 1s;
+  }
+}
