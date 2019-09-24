@@ -15,6 +15,10 @@
     <%= f.input :password_confirmation,
                 required: true,
                 input_html: { autocomplete: "new-password" } %>
+
+
+    <%= f.input :picture %>
+    <%= f.input :picture_cache, as: :hidden %>
   </div>
 
   <div class="form-actions">

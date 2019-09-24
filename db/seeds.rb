@@ -34,7 +34,7 @@ Channel.create!(id: 1004, name: "Lavie", rating: 3.8, picture: "https://images.u
 Channel.create!(id: 1005, name: "Reverse", rating: 3, picture: "https://images.unsplash.com/photo-1502773860571-211a597d6e4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80", user_id: 1005)
 Channel.create!(id: 1006, name: "Octo", rating: 2.3, picture: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80", user_id: 1006)
 Channel.create!(id: 1007, name: "Freddie", rating: 4.3, picture: "https://images.unsplash.com/photo-1499415479124-43c32433a620?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3289&q=80", user_id: 1007)
-Channel.create!(id: 1008, name: "Tap", rating: 5, picture: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80", user_id: 1008)
+Channel.create!(id: 1008, name: "Tap", rating: 5, picture: "https://res.cloudinary.com/dvbstrulo/image/upload/v1569344312/photo-1499415479124-43c32433a620_bzjdb5.jpg", user_id: 1008)
 Channel.create!(id: 1009, name: "Rabat", rating: 4, picture: "https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2180&q=80", user_id: 1009)
 Channel.create!(id: 1010, name: "Zucchi", rating: 2.9, picture: "https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80", user_id: 1010)
 

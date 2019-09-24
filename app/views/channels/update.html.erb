@@ -1,0 +1,15 @@
+<h1>Edit Channel:</h1>
+
+<%= simple_form_for(@channel) do |f| %>
+  <%= f.error_notification %>
+  <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :picture %>
+    <%= f.input :picture_cache, as: :hidden %>
+
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, "Log in" %>
+  </div>
+<% end %>

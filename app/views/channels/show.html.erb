@@ -1,6 +1,8 @@
-<div class="banner_channel" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= @channel.picture %>);">
+<div class="banner_channel" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= cl_image_tag @channel.picture %>);">
   <div class="add">
+    <%= link_to channel_path, method: :put do %>
     <i class="fas fa-plus"></i>
+    <% end %>
   </div>
 </div>
 <div class="container_channel">
